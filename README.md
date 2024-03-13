@@ -14,5 +14,20 @@ pip install -r requirements.txt
 ## RUN TESTS
     
 ```bash
-pytest function_fixtures_example.py
+python test_init.py
+pytest demo_test_1.py
+pytest demo_test_2.py
+python demo_test_teardown.py
 ```
+
+## RUN TESTS FROM SHELL SCRIPT
+
+```bash
+./run_tests.sh
+```
+
+## ADDING NEW TEST CASES ##
+
+First, you need to add the new test case in the test_init.py file.
+After that, you need to create a new test file with the new test case.
+Finally, you need to add the new test file in the run_tests.sh file.
