@@ -26,6 +26,16 @@ python demo_test_teardown.py
 ./run_tests.sh
 ```
 
+## PERMISSION DENIED ## 
+
+if you get the following error:
+`permission denied: ./run_tests.sh`
+
+You need to give execution permission to the file:
+```bash
+chmod +x run_tests.sh
+```
+
 ## ADDING NEW TEST CASES ##
 
 First, you need to add the new test case in the test_init.py file.
